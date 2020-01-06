@@ -58,3 +58,4 @@ ix)	After doing the above process we store the user ids and map it with the reac
 x)	Finally we plot a bar graph for the percentage of comments in each category 
 predicted by both the models separately. 
 
+</BR> Licensed under [MIT License](LICENSE)
