@@ -1,13 +1,5 @@
 # Cyber-Bullying-Detection
 
 
-Cyberbullying includes sending, posting, or sharing negative, harmful, false, or mean content
-about someone else over digital devices like cell phones, computers, and tablets through
-SMS, text, and apps, or online in social media, forums, or gaming where people can view,
-participate in, or share content. In this project we aim to build a system which can be proved
-as a perfect cyber bullying detection system. For addressing this major issue we will apply
-the knowledge of Natural Language Processing to develop a system that can understand
-the sentiment behind a given text. The system will be trained using the Naïve Bayes Analyzer
-and Pattern Analyzer on a predefined labelled dataset. Thereafter, the performance of the
-system trained using each of these classifiers will be tested and compared on actual
-comments posted on social media platforms.
+In this project we aim to build a system in which we can extract the comments from any post on facebook and detect the cyber bullying by doing sentiment analysis. We’ll be segregating the comments as positive, negative, abusive, neutral, facts, etc. By having an understanding that facts on someone’s religion or the place the person live may be abusive or insulting we have introduced the category of facts. The heart of this model will be the mapping the comments of the user with reactions given by same user. This can be explained by an example, suppose a person posts a photo and some of his/her friend posts an abusive comments but along with a ‘love’ react on the post then that particular comment will not be considered as abusive or insulting because the friend have posted the comment with good intention. This model will also be compatible of translating the given text in any language into English and then doing the Sentiment Analysis.
+We’ll also make an interactive visualization of the sentiment analysis and the reaction mapping done by the model so that any naïve user may understand the exact statistics.  
