@@ -10,7 +10,7 @@ Then we have visualized the results in an interactive manner such that even a na
 
 
 # Methodology  
-  
+  <br/><br/>
 **Datasets Used**  
   
 We have created a corpus of common negative phrases, words and facts, using the Selenium library to scrape the web and extract them.  
@@ -18,7 +18,7 @@ We have created a corpus of common negative phrases, words and facts, using the 
 For training, we have used the movie reviews dataset, available in the nltk corpus. This dataset has actual review text annotated with their associated sentiments.   
   
 To generate the testing data, we have used the SocioFi tool that is a third party application to extract actual Facebook comments in reaction to posts on the social media platform. This data is not labelled, and our model predicts the sentiment label based on the text in the comments.  
-  
+  <br/><br/>
 **Tools Used**  
   
 In this project, we will be using the TextBlob library which is one of  most efficient Natural Language Processing libraries in python.   
@@ -28,7 +28,7 @@ TextBlob: TextBlob is a Python (2 and 3) library for processing textual data. It
 To implement our project, we will be using the Jupyter Notebook.  
   
   
-
+<br/><br/>
 **Implementation**  
   
 i)	To generate the corpus of negative and abusive phrases or words and factual negative 
